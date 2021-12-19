@@ -1,0 +1,51 @@
+h1{
+    border-bottom: 2px solid goldenrod;
+    color: #F4BEEE;
+}
+.App{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.newGame{
+    border: 2px solid goldenrod;
+    border-radius: 0.5rem;
+    padding: 0.5rem 1rem;
+    display: inline-block;
+    margin: 1rem 0;
+    background-color: #F4BEEE;
+}
+.newGame:hover{
+    transform: scale(0.96);
+    cursor: pointer;
+}
+.startGame{
+    padding: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 800;
+    color: goldenrod;
+}
+.cardsGrid{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1rem;
+    margin: 1rem;
+}
+img{
+    border-radius: 0.5rem;
+    border: 3px solid goldenrod;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+    width: 10rem;
+    height: 10rem;
+    cursor: pointer;
+}
+.turns{
+    border: 2px solid goldenrod;
+    border-radius: 5px;
+    padding: 0.4rem 0.8rem;
+    color: goldenrod;
+    font-size: 1.2rem;
+}
